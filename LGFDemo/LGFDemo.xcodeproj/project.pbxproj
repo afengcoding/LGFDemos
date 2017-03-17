@@ -1,0 +1,1038 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CBF60C5E53DFCA873EC4DB0 /* Pods_LGFDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6BDEF8891506855CEE80211 /* Pods_LGFDemo.framework */; };
+		BC026BF51D4F37880045E6D8 /* LGFProtocolDef.m in Sources */ = {isa = PBXBuildFile; fileRef = BC026BF41D4F37880045E6D8 /* LGFProtocolDef.m */; };
+		BC0291A61D64448000022654 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0291A51D64448000022654 /* NetworkManager.m */; };
+		BC05F9911CFE6E18009FE5F9 /* LGFCreateBarcodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC05F9901CFE6E18009FE5F9 /* LGFCreateBarcodeManager.m */; };
+		BC161CC81D72C3FB00896453 /* LGFAnimatiomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC161CC61D72C3FB00896453 /* LGFAnimatiomViewController.m */; };
+		BC161CC91D72C3FB00896453 /* LGFAnimatiomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC161CC71D72C3FB00896453 /* LGFAnimatiomViewController.xib */; };
+		BC161CCC1D72CC9A00896453 /* LGFBasicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC161CCB1D72CC9A00896453 /* LGFBasicAnimationViewController.m */; };
+		BC161CCF1D72E3DC00896453 /* LGFAnimationExample.m in Sources */ = {isa = PBXBuildFile; fileRef = BC161CCE1D72E3DC00896453 /* LGFAnimationExample.m */; };
+		BC161CD21D72E55600896453 /* LGFCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC161CD11D72E55600896453 /* LGFCircleView.m */; };
+		BC2E6A771D80FE74002810F8 /* LGFAnchorPointExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2E6A761D80FE74002810F8 /* LGFAnchorPointExampleViewController.m */; };
+		BC2E6A7A1D8142E3002810F8 /* LGFMarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2E6A791D8142E3002810F8 /* LGFMarkView.m */; };
+		BC2E6A7C1D8149D1002810F8 /* rotate_mark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC2E6A7B1D8149D1002810F8 /* rotate_mark@2x.png */; };
+		BC2E6A7F1D814F22002810F8 /* LGFSingleTouchRotationGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2E6A7E1D814F22002810F8 /* LGFSingleTouchRotationGesture.m */; };
+		BC3336791D4B5B5F0071F4F8 /* UIView+LGF.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3336781D4B5B5F0071F4F8 /* UIView+LGF.m */; };
+		BC4B40771D751261006F221F /* LGFCircleLoaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4B40761D751261006F221F /* LGFCircleLoaderView.m */; };
+		BC6357E11D00630B001D8792 /* NSURLSessonTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6357E01D00630B001D8792 /* NSURLSessonTestViewController.m */; };
+		BC643C8E1CF585C600960B47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC643C8D1CF585C600960B47 /* main.m */; };
+		BC643C971CF585C600960B47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC643C951CF585C600960B47 /* Main.storyboard */; };
+		BC643C991CF585C600960B47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC643C981CF585C600960B47 /* Assets.xcassets */; };
+		BC643C9C1CF585C600960B47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC643C9A1CF585C600960B47 /* LaunchScreen.storyboard */; };
+		BC643CA71CF585C700960B47 /* LGFDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC643CA61CF585C700960B47 /* LGFDemoTests.m */; };
+		BC643CB21CF585C700960B47 /* LGFDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC643CB11CF585C700960B47 /* LGFDemoUITests.m */; };
+		BC643CE61CF586B900960B47 /* LGFHighLightKeyWordsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC643CC11CF586B900960B47 /* LGFHighLightKeyWordsViewController.m */; };
+		BC643CE71CF586B900960B47 /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = BC643CC31CF586B900960B47 /* 123.png */; };
+		BC643CE81CF586B900960B47 /* LGFResizableImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC643CC51CF586B900960B47 /* LGFResizableImageViewController.m */; };
+		BC643CEA1CF586B900960B47 /* LGFCustomSearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC643CC91CF586B900960B47 /* LGFCustomSearchBarViewController.m */; };
+		BC643CEB1CF586B900960B47 /* LGFSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BC643CCB1CF586B900960B47 /* LGFSearchBar.m */; };
+		BC643CEC1CF586B900960B47 /* LGFUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BC643CCD1CF586B900960B47 /* LGFUIButton.m */; };
+		BC643CED1CF586B900960B47 /* LGFCustomCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC643CD01CF586B900960B47 /* LGFCustomCameraViewController.m */; };
+		BC643CEE1CF586B900960B47 /* LGFLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BC643CD31CF586B900960B47 /* LGFLabel.m */; };
+		BC643CEF1CF586B900960B47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC643CD51CF586B900960B47 /* AppDelegate.m */; };
+		BC643CF01CF586B900960B47 /* LGFCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC643CD81CF586B900960B47 /* LGFCollectionCell.m */; };
+		BC643CF11CF586B900960B47 /* LGFWidthLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BC643CDA1CF586B900960B47 /* LGFWidthLayout.m */; };
+		BC643CF21CF586B900960B47 /* udeleteicon.png in Resources */ = {isa = PBXBuildFile; fileRef = BC643CDB1CF586B900960B47 /* udeleteicon.png */; };
+		BC643CF31CF586B900960B47 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC643CDD1CF586B900960B47 /* ViewController.m */; };
+		BC643CF41CF586B900960B47 /* LGFLabelHTMLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC643CE01CF586B900960B47 /* LGFLabelHTMLViewController.m */; };
+		BC643CF51CF586B900960B47 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC643CE51CF586B900960B47 /* RootViewController.m */; };
+		BC64EF341D73CB8C00AFBDF9 /* LGFRecordingCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC64EF331D73CB8C00AFBDF9 /* LGFRecordingCircleView.m */; };
+		BC64EF391D7411E100AFBDF9 /* LGFCALayerExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC64EF371D7411E100AFBDF9 /* LGFCALayerExampleViewController.m */; };
+		BC64EF3A1D7411E100AFBDF9 /* LGFCALayerExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC64EF381D7411E100AFBDF9 /* LGFCALayerExampleViewController.xib */; };
+		BC64EF3D1D7417BD00AFBDF9 /* LGFCAGradientLayerExample.m in Sources */ = {isa = PBXBuildFile; fileRef = BC64EF3C1D7417BD00AFBDF9 /* LGFCAGradientLayerExample.m */; };
+		BCD654D41D1397C60055AEB9 /* LGFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD654D31D1397C60055AEB9 /* LGFButton.m */; };
+		BCD654D71D139DF80055AEB9 /* LGFButtonVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD654D61D139DF80055AEB9 /* LGFButtonVCViewController.m */; };
+		BCD654D91D139E750055AEB9 /* AppIcon-129x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD654D81D139E750055AEB9 /* AppIcon-129x29@2x.png */; };
+		BCD654DC1D13D8720055AEB9 /* UIButton+LGF.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD654DB1D13D8720055AEB9 /* UIButton+LGF.m */; };
+		BCD70D661D0D0B9E0032B3FB /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD70D651D0D0B9E0032B3FB /* MyViewController.m */; };
+		BCE15A061CFD96A200EF844E /* BarcodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE15A051CFD96A200EF844E /* BarcodeViewController.m */; };
+		BCE15A0C1CFD98C100EF844E /* ScannerBarcodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE15A0B1CFD98C100EF844E /* ScannerBarcodeViewController.m */; };
+		BCE15A101CFD99DF00EF844E /* CreateBarcodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE15A0E1CFD99DF00EF844E /* CreateBarcodeViewController.m */; };
+		BCEE78191D6ED8FB00D63992 /* LGFImagePickerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEE78181D6ED8FB00D63992 /* LGFImagePickerUtil.m */; };
+		BCEE781F1D6EE62700D63992 /* LGFImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEE781E1D6EE62700D63992 /* LGFImagePickerViewController.m */; };
+		BCF4EAFE1D6BE06C005E2953 /* LGFUIBezierPathExample.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF4EAFD1D6BE06C005E2953 /* LGFUIBezierPathExample.m */; };
+		BCF4EB011D6BE2F5005E2953 /* LGFBezirePathView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF4EB001D6BE2F5005E2953 /* LGFBezirePathView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC643CA31CF585C700960B47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC643C811CF585C600960B47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC643C881CF585C600960B47;
+			remoteInfo = LGFDemo;
+		};
+		BC643CAE1CF585C700960B47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC643C811CF585C600960B47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC643C881CF585C600960B47;
+			remoteInfo = LGFDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0492DD1FA5723330775CF2B4 /* Pods-LGFDemo.dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGFDemo.dev.xcconfig"; path = "Pods/Target Support Files/Pods-LGFDemo/Pods-LGFDemo.dev.xcconfig"; sourceTree = "<group>"; };
+		18CDD96AC2B0869F89F9AE85 /* Pods-LGFDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGFDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGFDemo/Pods-LGFDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		354FBA0334CE041A2E918872 /* Pods-LGFDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGFDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGFDemo/Pods-LGFDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BC026BF31D4F37880045E6D8 /* LGFProtocolDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFProtocolDef.h; sourceTree = "<group>"; };
+		BC026BF41D4F37880045E6D8 /* LGFProtocolDef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFProtocolDef.m; sourceTree = "<group>"; };
+		BC0291A41D64448000022654 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		BC0291A51D64448000022654 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		BC05F98F1CFE6E18009FE5F9 /* LGFCreateBarcodeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFCreateBarcodeManager.h; sourceTree = "<group>"; };
+		BC05F9901CFE6E18009FE5F9 /* LGFCreateBarcodeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFCreateBarcodeManager.m; sourceTree = "<group>"; };
+		BC161CC51D72C3FB00896453 /* LGFAnimatiomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFAnimatiomViewController.h; sourceTree = "<group>"; };
+		BC161CC61D72C3FB00896453 /* LGFAnimatiomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFAnimatiomViewController.m; sourceTree = "<group>"; };
+		BC161CC71D72C3FB00896453 /* LGFAnimatiomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LGFAnimatiomViewController.xib; sourceTree = "<group>"; };
+		BC161CCA1D72CC9A00896453 /* LGFBasicAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFBasicAnimationViewController.h; sourceTree = "<group>"; };
+		BC161CCB1D72CC9A00896453 /* LGFBasicAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFBasicAnimationViewController.m; sourceTree = "<group>"; };
+		BC161CCD1D72E3DC00896453 /* LGFAnimationExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFAnimationExample.h; sourceTree = "<group>"; };
+		BC161CCE1D72E3DC00896453 /* LGFAnimationExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFAnimationExample.m; sourceTree = "<group>"; };
+		BC161CD01D72E55600896453 /* LGFCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFCircleView.h; sourceTree = "<group>"; };
+		BC161CD11D72E55600896453 /* LGFCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFCircleView.m; sourceTree = "<group>"; };
+		BC2E6A751D80FE74002810F8 /* LGFAnchorPointExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFAnchorPointExampleViewController.h; sourceTree = "<group>"; };
+		BC2E6A761D80FE74002810F8 /* LGFAnchorPointExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFAnchorPointExampleViewController.m; sourceTree = "<group>"; };
+		BC2E6A781D8142E3002810F8 /* LGFMarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFMarkView.h; sourceTree = "<group>"; };
+		BC2E6A791D8142E3002810F8 /* LGFMarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFMarkView.m; sourceTree = "<group>"; };
+		BC2E6A7B1D8149D1002810F8 /* rotate_mark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rotate_mark@2x.png"; sourceTree = "<group>"; };
+		BC2E6A7D1D814F22002810F8 /* LGFSingleTouchRotationGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFSingleTouchRotationGesture.h; sourceTree = "<group>"; };
+		BC2E6A7E1D814F22002810F8 /* LGFSingleTouchRotationGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFSingleTouchRotationGesture.m; sourceTree = "<group>"; };
+		BC3336771D4B5B5F0071F4F8 /* UIView+LGF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LGF.h"; sourceTree = "<group>"; };
+		BC3336781D4B5B5F0071F4F8 /* UIView+LGF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LGF.m"; sourceTree = "<group>"; };
+		BC4B40751D751261006F221F /* LGFCircleLoaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFCircleLoaderView.h; sourceTree = "<group>"; };
+		BC4B40761D751261006F221F /* LGFCircleLoaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFCircleLoaderView.m; sourceTree = "<group>"; };
+		BC6357DF1D00630B001D8792 /* NSURLSessonTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLSessonTestViewController.h; sourceTree = "<group>"; };
+		BC6357E01D00630B001D8792 /* NSURLSessonTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLSessonTestViewController.m; sourceTree = "<group>"; };
+		BC643C891CF585C600960B47 /* LGFDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGFDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC643C8D1CF585C600960B47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC643C961CF585C600960B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC643C981CF585C600960B47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC643C9B1CF585C600960B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC643C9D1CF585C600960B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC643CA21CF585C700960B47 /* LGFDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGFDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC643CA61CF585C700960B47 /* LGFDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGFDemoTests.m; sourceTree = "<group>"; };
+		BC643CA81CF585C700960B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC643CAD1CF585C700960B47 /* LGFDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGFDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC643CB11CF585C700960B47 /* LGFDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGFDemoUITests.m; sourceTree = "<group>"; };
+		BC643CB31CF585C700960B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC643CC01CF586B900960B47 /* LGFHighLightKeyWordsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFHighLightKeyWordsViewController.h; sourceTree = "<group>"; };
+		BC643CC11CF586B900960B47 /* LGFHighLightKeyWordsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFHighLightKeyWordsViewController.m; sourceTree = "<group>"; };
+		BC643CC31CF586B900960B47 /* 123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 123.png; sourceTree = "<group>"; };
+		BC643CC41CF586B900960B47 /* LGFResizableImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFResizableImageViewController.h; sourceTree = "<group>"; };
+		BC643CC51CF586B900960B47 /* LGFResizableImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFResizableImageViewController.m; sourceTree = "<group>"; };
+		BC643CC81CF586B900960B47 /* LGFCustomSearchBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFCustomSearchBarViewController.h; sourceTree = "<group>"; };
+		BC643CC91CF586B900960B47 /* LGFCustomSearchBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFCustomSearchBarViewController.m; sourceTree = "<group>"; };
+		BC643CCA1CF586B900960B47 /* LGFSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFSearchBar.h; sourceTree = "<group>"; };
+		BC643CCB1CF586B900960B47 /* LGFSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFSearchBar.m; sourceTree = "<group>"; };
+		BC643CCC1CF586B900960B47 /* LGFUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFUIButton.h; sourceTree = "<group>"; };
+		BC643CCD1CF586B900960B47 /* LGFUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFUIButton.m; sourceTree = "<group>"; };
+		BC643CCF1CF586B900960B47 /* LGFCustomCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFCustomCameraViewController.h; sourceTree = "<group>"; };
+		BC643CD01CF586B900960B47 /* LGFCustomCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFCustomCameraViewController.m; sourceTree = "<group>"; };
+		BC643CD21CF586B900960B47 /* LGFLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFLabel.h; sourceTree = "<group>"; };
+		BC643CD31CF586B900960B47 /* LGFLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFLabel.m; sourceTree = "<group>"; };
+		BC643CD41CF586B900960B47 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC643CD51CF586B900960B47 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC643CD71CF586B900960B47 /* LGFCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFCollectionCell.h; sourceTree = "<group>"; };
+		BC643CD81CF586B900960B47 /* LGFCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFCollectionCell.m; sourceTree = "<group>"; };
+		BC643CD91CF586B900960B47 /* LGFWidthLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFWidthLayout.h; sourceTree = "<group>"; };
+		BC643CDA1CF586B900960B47 /* LGFWidthLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFWidthLayout.m; sourceTree = "<group>"; };
+		BC643CDB1CF586B900960B47 /* udeleteicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = udeleteicon.png; sourceTree = "<group>"; };
+		BC643CDC1CF586B900960B47 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC643CDD1CF586B900960B47 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC643CDF1CF586B900960B47 /* LGFLabelHTMLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFLabelHTMLViewController.h; sourceTree = "<group>"; };
+		BC643CE01CF586B900960B47 /* LGFLabelHTMLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFLabelHTMLViewController.m; sourceTree = "<group>"; };
+		BC643CE11CF586B900960B47 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BC643CE31CF586B900960B47 /* LGFProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFProtocol.h; sourceTree = "<group>"; };
+		BC643CE41CF586B900960B47 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		BC643CE51CF586B900960B47 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		BC64EF321D73CB8C00AFBDF9 /* LGFRecordingCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFRecordingCircleView.h; sourceTree = "<group>"; };
+		BC64EF331D73CB8C00AFBDF9 /* LGFRecordingCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFRecordingCircleView.m; sourceTree = "<group>"; };
+		BC64EF361D7411E100AFBDF9 /* LGFCALayerExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFCALayerExampleViewController.h; sourceTree = "<group>"; };
+		BC64EF371D7411E100AFBDF9 /* LGFCALayerExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFCALayerExampleViewController.m; sourceTree = "<group>"; };
+		BC64EF381D7411E100AFBDF9 /* LGFCALayerExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LGFCALayerExampleViewController.xib; sourceTree = "<group>"; };
+		BC64EF3B1D7417BD00AFBDF9 /* LGFCAGradientLayerExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFCAGradientLayerExample.h; sourceTree = "<group>"; };
+		BC64EF3C1D7417BD00AFBDF9 /* LGFCAGradientLayerExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFCAGradientLayerExample.m; sourceTree = "<group>"; };
+		BCD654D21D1397C60055AEB9 /* LGFButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFButton.h; sourceTree = "<group>"; };
+		BCD654D31D1397C60055AEB9 /* LGFButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFButton.m; sourceTree = "<group>"; };
+		BCD654D51D139DF80055AEB9 /* LGFButtonVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFButtonVCViewController.h; sourceTree = "<group>"; };
+		BCD654D61D139DF80055AEB9 /* LGFButtonVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFButtonVCViewController.m; sourceTree = "<group>"; };
+		BCD654D81D139E750055AEB9 /* AppIcon-129x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-129x29@2x.png"; sourceTree = "<group>"; };
+		BCD654DA1D13D8720055AEB9 /* UIButton+LGF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LGF.h"; sourceTree = "<group>"; };
+		BCD654DB1D13D8720055AEB9 /* UIButton+LGF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LGF.m"; sourceTree = "<group>"; };
+		BCD70D641D0D0B9E0032B3FB /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		BCD70D651D0D0B9E0032B3FB /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		BCE15A041CFD96A200EF844E /* BarcodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeViewController.h; sourceTree = "<group>"; };
+		BCE15A051CFD96A200EF844E /* BarcodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarcodeViewController.m; sourceTree = "<group>"; };
+		BCE15A0A1CFD98C100EF844E /* ScannerBarcodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScannerBarcodeViewController.h; sourceTree = "<group>"; };
+		BCE15A0B1CFD98C100EF844E /* ScannerBarcodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScannerBarcodeViewController.m; sourceTree = "<group>"; };
+		BCE15A0D1CFD99DF00EF844E /* CreateBarcodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateBarcodeViewController.h; sourceTree = "<group>"; };
+		BCE15A0E1CFD99DF00EF844E /* CreateBarcodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateBarcodeViewController.m; sourceTree = "<group>"; };
+		BCEE78171D6ED8FB00D63992 /* LGFImagePickerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFImagePickerUtil.h; sourceTree = "<group>"; };
+		BCEE78181D6ED8FB00D63992 /* LGFImagePickerUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFImagePickerUtil.m; sourceTree = "<group>"; };
+		BCEE781D1D6EE62700D63992 /* LGFImagePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFImagePickerViewController.h; sourceTree = "<group>"; };
+		BCEE781E1D6EE62700D63992 /* LGFImagePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFImagePickerViewController.m; sourceTree = "<group>"; };
+		BCF4EAFC1D6BE06C005E2953 /* LGFUIBezierPathExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFUIBezierPathExample.h; sourceTree = "<group>"; };
+		BCF4EAFD1D6BE06C005E2953 /* LGFUIBezierPathExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFUIBezierPathExample.m; sourceTree = "<group>"; };
+		BCF4EAFF1D6BE2F5005E2953 /* LGFBezirePathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGFBezirePathView.h; sourceTree = "<group>"; };
+		BCF4EB001D6BE2F5005E2953 /* LGFBezirePathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGFBezirePathView.m; sourceTree = "<group>"; };
+		F6BDEF8891506855CEE80211 /* Pods_LGFDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LGFDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC643C861CF585C600960B47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBF60C5E53DFCA873EC4DB0 /* Pods_LGFDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC643C9F1CF585C700960B47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC643CAA1CF585C700960B47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32DBFE74D6BEA732E3E288BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18CDD96AC2B0869F89F9AE85 /* Pods-LGFDemo.debug.xcconfig */,
+				354FBA0334CE041A2E918872 /* Pods-LGFDemo.release.xcconfig */,
+				0492DD1FA5723330775CF2B4 /* Pods-LGFDemo.dev.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC0291A31D64437200022654 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BC0291A41D64448000022654 /* NetworkManager.h */,
+				BC0291A51D64448000022654 /* NetworkManager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BC161CC41D72C3CA00896453 /* 动画 */ = {
+			isa = PBXGroup;
+			children = (
+				BC161CC51D72C3FB00896453 /* LGFAnimatiomViewController.h */,
+				BC161CC61D72C3FB00896453 /* LGFAnimatiomViewController.m */,
+				BC161CC71D72C3FB00896453 /* LGFAnimatiomViewController.xib */,
+				BC161CCA1D72CC9A00896453 /* LGFBasicAnimationViewController.h */,
+				BC161CCB1D72CC9A00896453 /* LGFBasicAnimationViewController.m */,
+				BC161CCD1D72E3DC00896453 /* LGFAnimationExample.h */,
+				BC161CCE1D72E3DC00896453 /* LGFAnimationExample.m */,
+				BC161CD01D72E55600896453 /* LGFCircleView.h */,
+				BC161CD11D72E55600896453 /* LGFCircleView.m */,
+				BC64EF321D73CB8C00AFBDF9 /* LGFRecordingCircleView.h */,
+				BC64EF331D73CB8C00AFBDF9 /* LGFRecordingCircleView.m */,
+			);
+			path = "动画";
+			sourceTree = "<group>";
+		};
+		BC2E6A741D80FD71002810F8 /* 锚点和位置 */ = {
+			isa = PBXGroup;
+			children = (
+				BC2E6A7B1D8149D1002810F8 /* rotate_mark@2x.png */,
+				BC2E6A751D80FE74002810F8 /* LGFAnchorPointExampleViewController.h */,
+				BC2E6A761D80FE74002810F8 /* LGFAnchorPointExampleViewController.m */,
+				BC2E6A781D8142E3002810F8 /* LGFMarkView.h */,
+				BC2E6A791D8142E3002810F8 /* LGFMarkView.m */,
+				BC2E6A7D1D814F22002810F8 /* LGFSingleTouchRotationGesture.h */,
+				BC2E6A7E1D814F22002810F8 /* LGFSingleTouchRotationGesture.m */,
+			);
+			path = "锚点和位置";
+			sourceTree = "<group>";
+		};
+		BC6357DE1D0062AB001D8792 /* 下载测试 */ = {
+			isa = PBXGroup;
+			children = (
+				BC6357DF1D00630B001D8792 /* NSURLSessonTestViewController.h */,
+				BC6357E01D00630B001D8792 /* NSURLSessonTestViewController.m */,
+			);
+			path = "下载测试";
+			sourceTree = "<group>";
+		};
+		BC643C801CF585C600960B47 = {
+			isa = PBXGroup;
+			children = (
+				BC643C8B1CF585C600960B47 /* LGFDemo */,
+				BC643CA51CF585C700960B47 /* LGFDemoTests */,
+				BC643CB01CF585C700960B47 /* LGFDemoUITests */,
+				BC643C8A1CF585C600960B47 /* Products */,
+				32DBFE74D6BEA732E3E288BE /* Pods */,
+				D3B29025A9C012D3EEB4F85C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC643C8A1CF585C600960B47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC643C891CF585C600960B47 /* LGFDemo.app */,
+				BC643CA21CF585C700960B47 /* LGFDemoTests.xctest */,
+				BC643CAD1CF585C700960B47 /* LGFDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC643C8B1CF585C600960B47 /* LGFDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BC2E6A741D80FD71002810F8 /* 锚点和位置 */,
+				BC64EF351D7411B700AFBDF9 /* CALayer&CAShapLayer&CAGradientLayer */,
+				BC161CC41D72C3CA00896453 /* 动画 */,
+				BCEE78131D6ED7D500D63992 /* 系统相册调用 */,
+				BCF4EAFB1D6BE041005E2953 /* UIBezierPath */,
+				BC0291A31D64437200022654 /* Network */,
+				BCEC0DF91D29F6B9000C6534 /* 测试demo */,
+				BCD654D11D13977E0055AEB9 /* 自定义button */,
+				BC6357DE1D0062AB001D8792 /* 下载测试 */,
+				BCE15A031CFD966600EF844E /* 二维码 */,
+				BC643CBF1CF586B900960B47 /* 关键字高亮显示 */,
+				BC643CC21CF586B900960B47 /* 图片拉伸处理 */,
+				BC643CC71CF586B900960B47 /* 修改SearchBar高度 */,
+				BC643CCE1CF586B900960B47 /* 自定义相机 */,
+				BC643CD11CF586B900960B47 /* 自定义Label */,
+				BC643CD61CF586B900960B47 /* autolayout */,
+				BC643CDE1CF586B900960B47 /* Label加载HTML */,
+				BC643CE21CF586B900960B47 /* Protocol */,
+				BC643CE41CF586B900960B47 /* RootViewController.h */,
+				BC643CE51CF586B900960B47 /* RootViewController.m */,
+				BC643CD41CF586B900960B47 /* AppDelegate.h */,
+				BC643CD51CF586B900960B47 /* AppDelegate.m */,
+				BC643CE11CF586B900960B47 /* PrefixHeader.pch */,
+				BC643C951CF585C600960B47 /* Main.storyboard */,
+				BC643C981CF585C600960B47 /* Assets.xcassets */,
+				BC643C9A1CF585C600960B47 /* LaunchScreen.storyboard */,
+				BC643C9D1CF585C600960B47 /* Info.plist */,
+				BC643C8C1CF585C600960B47 /* Supporting Files */,
+			);
+			path = LGFDemo;
+			sourceTree = "<group>";
+		};
+		BC643C8C1CF585C600960B47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC643C8D1CF585C600960B47 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC643CA51CF585C700960B47 /* LGFDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC643CA61CF585C700960B47 /* LGFDemoTests.m */,
+				BC643CA81CF585C700960B47 /* Info.plist */,
+			);
+			path = LGFDemoTests;
+			sourceTree = "<group>";
+		};
+		BC643CB01CF585C700960B47 /* LGFDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC643CB11CF585C700960B47 /* LGFDemoUITests.m */,
+				BC643CB31CF585C700960B47 /* Info.plist */,
+			);
+			path = LGFDemoUITests;
+			sourceTree = "<group>";
+		};
+		BC643CBF1CF586B900960B47 /* 关键字高亮显示 */ = {
+			isa = PBXGroup;
+			children = (
+				BC643CC01CF586B900960B47 /* LGFHighLightKeyWordsViewController.h */,
+				BC643CC11CF586B900960B47 /* LGFHighLightKeyWordsViewController.m */,
+			);
+			path = "关键字高亮显示";
+			sourceTree = "<group>";
+		};
+		BC643CC21CF586B900960B47 /* 图片拉伸处理 */ = {
+			isa = PBXGroup;
+			children = (
+				BC643CC31CF586B900960B47 /* 123.png */,
+				BC643CC41CF586B900960B47 /* LGFResizableImageViewController.h */,
+				BC643CC51CF586B900960B47 /* LGFResizableImageViewController.m */,
+			);
+			path = "图片拉伸处理";
+			sourceTree = "<group>";
+		};
+		BC643CC71CF586B900960B47 /* 修改SearchBar高度 */ = {
+			isa = PBXGroup;
+			children = (
+				BC643CC81CF586B900960B47 /* LGFCustomSearchBarViewController.h */,
+				BC643CC91CF586B900960B47 /* LGFCustomSearchBarViewController.m */,
+				BC643CCA1CF586B900960B47 /* LGFSearchBar.h */,
+				BC643CCB1CF586B900960B47 /* LGFSearchBar.m */,
+				BC643CCC1CF586B900960B47 /* LGFUIButton.h */,
+				BC643CCD1CF586B900960B47 /* LGFUIButton.m */,
+			);
+			path = "修改SearchBar高度";
+			sourceTree = "<group>";
+		};
+		BC643CCE1CF586B900960B47 /* 自定义相机 */ = {
+			isa = PBXGroup;
+			children = (
+				BC643CCF1CF586B900960B47 /* LGFCustomCameraViewController.h */,
+				BC643CD01CF586B900960B47 /* LGFCustomCameraViewController.m */,
+				BCD70D641D0D0B9E0032B3FB /* MyViewController.h */,
+				BCD70D651D0D0B9E0032B3FB /* MyViewController.m */,
+				BC3336771D4B5B5F0071F4F8 /* UIView+LGF.h */,
+				BC3336781D4B5B5F0071F4F8 /* UIView+LGF.m */,
+			);
+			path = "自定义相机";
+			sourceTree = "<group>";
+		};
+		BC643CD11CF586B900960B47 /* 自定义Label */ = {
+			isa = PBXGroup;
+			children = (
+				BC643CD21CF586B900960B47 /* LGFLabel.h */,
+				BC643CD31CF586B900960B47 /* LGFLabel.m */,
+			);
+			path = "自定义Label";
+			sourceTree = "<group>";
+		};
+		BC643CD61CF586B900960B47 /* autolayout */ = {
+			isa = PBXGroup;
+			children = (
+				BC643CD71CF586B900960B47 /* LGFCollectionCell.h */,
+				BC643CD81CF586B900960B47 /* LGFCollectionCell.m */,
+				BC643CD91CF586B900960B47 /* LGFWidthLayout.h */,
+				BC643CDA1CF586B900960B47 /* LGFWidthLayout.m */,
+				BC643CDB1CF586B900960B47 /* udeleteicon.png */,
+				BC643CDC1CF586B900960B47 /* ViewController.h */,
+				BC643CDD1CF586B900960B47 /* ViewController.m */,
+			);
+			path = autolayout;
+			sourceTree = "<group>";
+		};
+		BC643CDE1CF586B900960B47 /* Label加载HTML */ = {
+			isa = PBXGroup;
+			children = (
+				BC643CDF1CF586B900960B47 /* LGFLabelHTMLViewController.h */,
+				BC643CE01CF586B900960B47 /* LGFLabelHTMLViewController.m */,
+			);
+			path = "Label加载HTML";
+			sourceTree = "<group>";
+		};
+		BC643CE21CF586B900960B47 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				BC643CE31CF586B900960B47 /* LGFProtocol.h */,
+				BC026BF31D4F37880045E6D8 /* LGFProtocolDef.h */,
+				BC026BF41D4F37880045E6D8 /* LGFProtocolDef.m */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		BC64EF351D7411B700AFBDF9 /* CALayer&CAShapLayer&CAGradientLayer */ = {
+			isa = PBXGroup;
+			children = (
+				BC64EF361D7411E100AFBDF9 /* LGFCALayerExampleViewController.h */,
+				BC64EF371D7411E100AFBDF9 /* LGFCALayerExampleViewController.m */,
+				BC64EF381D7411E100AFBDF9 /* LGFCALayerExampleViewController.xib */,
+				BC64EF3B1D7417BD00AFBDF9 /* LGFCAGradientLayerExample.h */,
+				BC64EF3C1D7417BD00AFBDF9 /* LGFCAGradientLayerExample.m */,
+				BC4B40751D751261006F221F /* LGFCircleLoaderView.h */,
+				BC4B40761D751261006F221F /* LGFCircleLoaderView.m */,
+			);
+			path = "CALayer&CAShapLayer&CAGradientLayer";
+			sourceTree = "<group>";
+		};
+		BCD654D11D13977E0055AEB9 /* 自定义button */ = {
+			isa = PBXGroup;
+			children = (
+				BCD654D81D139E750055AEB9 /* AppIcon-129x29@2x.png */,
+				BCD654D21D1397C60055AEB9 /* LGFButton.h */,
+				BCD654D31D1397C60055AEB9 /* LGFButton.m */,
+				BCD654D51D139DF80055AEB9 /* LGFButtonVCViewController.h */,
+				BCD654D61D139DF80055AEB9 /* LGFButtonVCViewController.m */,
+				BCD654DA1D13D8720055AEB9 /* UIButton+LGF.h */,
+				BCD654DB1D13D8720055AEB9 /* UIButton+LGF.m */,
+			);
+			path = "自定义button";
+			sourceTree = "<group>";
+		};
+		BCE15A031CFD966600EF844E /* 二维码 */ = {
+			isa = PBXGroup;
+			children = (
+				BCE15A041CFD96A200EF844E /* BarcodeViewController.h */,
+				BCE15A051CFD96A200EF844E /* BarcodeViewController.m */,
+				BCE15A0A1CFD98C100EF844E /* ScannerBarcodeViewController.h */,
+				BCE15A0B1CFD98C100EF844E /* ScannerBarcodeViewController.m */,
+				BCE15A0D1CFD99DF00EF844E /* CreateBarcodeViewController.h */,
+				BCE15A0E1CFD99DF00EF844E /* CreateBarcodeViewController.m */,
+				BC05F98F1CFE6E18009FE5F9 /* LGFCreateBarcodeManager.h */,
+				BC05F9901CFE6E18009FE5F9 /* LGFCreateBarcodeManager.m */,
+			);
+			path = "二维码";
+			sourceTree = "<group>";
+		};
+		BCEC0DF91D29F6B9000C6534 /* 测试demo */ = {
+			isa = PBXGroup;
+			children = (
+				BCEC0DFA1D29F6B9000C6534 /* controllers */,
+				BCEC0DFB1D29F6B9000C6534 /* model */,
+				BCEC0DFC1D29F6B9000C6534 /* views */,
+			);
+			path = "测试demo";
+			sourceTree = "<group>";
+		};
+		BCEC0DFA1D29F6B9000C6534 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		BCEC0DFB1D29F6B9000C6534 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		BCEC0DFC1D29F6B9000C6534 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		BCEE78131D6ED7D500D63992 /* 系统相册调用 */ = {
+			isa = PBXGroup;
+			children = (
+				BCEE78171D6ED8FB00D63992 /* LGFImagePickerUtil.h */,
+				BCEE78181D6ED8FB00D63992 /* LGFImagePickerUtil.m */,
+				BCEE781D1D6EE62700D63992 /* LGFImagePickerViewController.h */,
+				BCEE781E1D6EE62700D63992 /* LGFImagePickerViewController.m */,
+			);
+			path = "系统相册调用";
+			sourceTree = "<group>";
+		};
+		BCF4EAFB1D6BE041005E2953 /* UIBezierPath */ = {
+			isa = PBXGroup;
+			children = (
+				BCF4EAFC1D6BE06C005E2953 /* LGFUIBezierPathExample.h */,
+				BCF4EAFD1D6BE06C005E2953 /* LGFUIBezierPathExample.m */,
+				BCF4EAFF1D6BE2F5005E2953 /* LGFBezirePathView.h */,
+				BCF4EB001D6BE2F5005E2953 /* LGFBezirePathView.m */,
+			);
+			path = UIBezierPath;
+			sourceTree = "<group>";
+		};
+		D3B29025A9C012D3EEB4F85C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6BDEF8891506855CEE80211 /* Pods_LGFDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC643C881CF585C600960B47 /* LGFDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC643CB61CF585C700960B47 /* Build configuration list for PBXNativeTarget "LGFDemo" */;
+			buildPhases = (
+				853608A6F6E7C992E5109770 /* [CP] Check Pods Manifest.lock */,
+				BC643C851CF585C600960B47 /* Sources */,
+				BC643C861CF585C600960B47 /* Frameworks */,
+				BC643C871CF585C600960B47 /* Resources */,
+				3DB178EF3A052ABA545C9E64 /* [CP] Embed Pods Frameworks */,
+				4CFC15066C5003F3F18FCB9D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGFDemo;
+			productName = LGFDemo;
+			productReference = BC643C891CF585C600960B47 /* LGFDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC643CA11CF585C700960B47 /* LGFDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC643CB91CF585C700960B47 /* Build configuration list for PBXNativeTarget "LGFDemoTests" */;
+			buildPhases = (
+				BC643C9E1CF585C700960B47 /* Sources */,
+				BC643C9F1CF585C700960B47 /* Frameworks */,
+				BC643CA01CF585C700960B47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC643CA41CF585C700960B47 /* PBXTargetDependency */,
+			);
+			name = LGFDemoTests;
+			productName = LGFDemoTests;
+			productReference = BC643CA21CF585C700960B47 /* LGFDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC643CAC1CF585C700960B47 /* LGFDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC643CBC1CF585C700960B47 /* Build configuration list for PBXNativeTarget "LGFDemoUITests" */;
+			buildPhases = (
+				BC643CA91CF585C700960B47 /* Sources */,
+				BC643CAA1CF585C700960B47 /* Frameworks */,
+				BC643CAB1CF585C700960B47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC643CAF1CF585C700960B47 /* PBXTargetDependency */,
+			);
+			name = LGFDemoUITests;
+			productName = LGFDemoUITests;
+			productReference = BC643CAD1CF585C700960B47 /* LGFDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC643C811CF585C600960B47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LGF;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lvguifeng;
+				TargetAttributes = {
+					BC643C881CF585C600960B47 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BC643CA11CF585C700960B47 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BC643C881CF585C600960B47;
+					};
+					BC643CAC1CF585C700960B47 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BC643C881CF585C600960B47;
+					};
+				};
+			};
+			buildConfigurationList = BC643C841CF585C600960B47 /* Build configuration list for PBXProject "LGFDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC643C801CF585C600960B47;
+			productRefGroup = BC643C8A1CF585C600960B47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC643C881CF585C600960B47 /* LGFDemo */,
+				BC643CA11CF585C700960B47 /* LGFDemoTests */,
+				BC643CAC1CF585C700960B47 /* LGFDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC643C871CF585C600960B47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC643CE71CF586B900960B47 /* 123.png in Resources */,
+				BC64EF3A1D7411E100AFBDF9 /* LGFCALayerExampleViewController.xib in Resources */,
+				BCD654D91D139E750055AEB9 /* AppIcon-129x29@2x.png in Resources */,
+				BC643C9C1CF585C600960B47 /* LaunchScreen.storyboard in Resources */,
+				BC643C991CF585C600960B47 /* Assets.xcassets in Resources */,
+				BC2E6A7C1D8149D1002810F8 /* rotate_mark@2x.png in Resources */,
+				BC643C971CF585C600960B47 /* Main.storyboard in Resources */,
+				BC643CF21CF586B900960B47 /* udeleteicon.png in Resources */,
+				BC161CC91D72C3FB00896453 /* LGFAnimatiomViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC643CA01CF585C700960B47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC643CAB1CF585C700960B47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DB178EF3A052ABA545C9E64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGFDemo/Pods-LGFDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CFC15066C5003F3F18FCB9D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGFDemo/Pods-LGFDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		853608A6F6E7C992E5109770 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC643C851CF585C600960B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC643CE81CF586B900960B47 /* LGFResizableImageViewController.m in Sources */,
+				BC161CCF1D72E3DC00896453 /* LGFAnimationExample.m in Sources */,
+				BC643C8E1CF585C600960B47 /* main.m in Sources */,
+				BC161CCC1D72CC9A00896453 /* LGFBasicAnimationViewController.m in Sources */,
+				BC0291A61D64448000022654 /* NetworkManager.m in Sources */,
+				BCE15A0C1CFD98C100EF844E /* ScannerBarcodeViewController.m in Sources */,
+				BCEE78191D6ED8FB00D63992 /* LGFImagePickerUtil.m in Sources */,
+				BC643CEF1CF586B900960B47 /* AppDelegate.m in Sources */,
+				BC6357E11D00630B001D8792 /* NSURLSessonTestViewController.m in Sources */,
+				BC2E6A771D80FE74002810F8 /* LGFAnchorPointExampleViewController.m in Sources */,
+				BCE15A061CFD96A200EF844E /* BarcodeViewController.m in Sources */,
+				BC643CED1CF586B900960B47 /* LGFCustomCameraViewController.m in Sources */,
+				BC643CE61CF586B900960B47 /* LGFHighLightKeyWordsViewController.m in Sources */,
+				BC643CF01CF586B900960B47 /* LGFCollectionCell.m in Sources */,
+				BC161CC81D72C3FB00896453 /* LGFAnimatiomViewController.m in Sources */,
+				BC2E6A7F1D814F22002810F8 /* LGFSingleTouchRotationGesture.m in Sources */,
+				BCF4EAFE1D6BE06C005E2953 /* LGFUIBezierPathExample.m in Sources */,
+				BC64EF341D73CB8C00AFBDF9 /* LGFRecordingCircleView.m in Sources */,
+				BC05F9911CFE6E18009FE5F9 /* LGFCreateBarcodeManager.m in Sources */,
+				BCF4EB011D6BE2F5005E2953 /* LGFBezirePathView.m in Sources */,
+				BC643CF31CF586B900960B47 /* ViewController.m in Sources */,
+				BC643CF11CF586B900960B47 /* LGFWidthLayout.m in Sources */,
+				BC643CF51CF586B900960B47 /* RootViewController.m in Sources */,
+				BC643CEA1CF586B900960B47 /* LGFCustomSearchBarViewController.m in Sources */,
+				BC2E6A7A1D8142E3002810F8 /* LGFMarkView.m in Sources */,
+				BCD70D661D0D0B9E0032B3FB /* MyViewController.m in Sources */,
+				BC643CEB1CF586B900960B47 /* LGFSearchBar.m in Sources */,
+				BCD654DC1D13D8720055AEB9 /* UIButton+LGF.m in Sources */,
+				BC643CF41CF586B900960B47 /* LGFLabelHTMLViewController.m in Sources */,
+				BC026BF51D4F37880045E6D8 /* LGFProtocolDef.m in Sources */,
+				BC643CEE1CF586B900960B47 /* LGFLabel.m in Sources */,
+				BCEE781F1D6EE62700D63992 /* LGFImagePickerViewController.m in Sources */,
+				BCE15A101CFD99DF00EF844E /* CreateBarcodeViewController.m in Sources */,
+				BC64EF3D1D7417BD00AFBDF9 /* LGFCAGradientLayerExample.m in Sources */,
+				BC4B40771D751261006F221F /* LGFCircleLoaderView.m in Sources */,
+				BC3336791D4B5B5F0071F4F8 /* UIView+LGF.m in Sources */,
+				BC64EF391D7411E100AFBDF9 /* LGFCALayerExampleViewController.m in Sources */,
+				BC161CD21D72E55600896453 /* LGFCircleView.m in Sources */,
+				BCD654D41D1397C60055AEB9 /* LGFButton.m in Sources */,
+				BCD654D71D139DF80055AEB9 /* LGFButtonVCViewController.m in Sources */,
+				BC643CEC1CF586B900960B47 /* LGFUIButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC643C9E1CF585C700960B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC643CA71CF585C700960B47 /* LGFDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC643CA91CF585C700960B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC643CB21CF585C700960B47 /* LGFDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC643CA41CF585C700960B47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC643C881CF585C600960B47 /* LGFDemo */;
+			targetProxy = BC643CA31CF585C700960B47 /* PBXContainerItemProxy */;
+		};
+		BC643CAF1CF585C700960B47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC643C881CF585C600960B47 /* LGFDemo */;
+			targetProxy = BC643CAE1CF585C700960B47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC643C951CF585C600960B47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC643C961CF585C600960B47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC643C9A1CF585C600960B47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC643C9B1CF585C600960B47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC643CB41CF585C700960B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos9.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC643CB51CF585C700960B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos9.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC643CB71CF585C700960B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18CDD96AC2B0869F89F9AE85 /* Pods-LGFDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LGFdemo/PrefixHeader.pch";
+				INFOPLIST_FILE = LGFDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.LGFDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos9.3;
+			};
+			name = Debug;
+		};
+		BC643CB81CF585C700960B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 354FBA0334CE041A2E918872 /* Pods-LGFDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LGFdemo/PrefixHeader.pch";
+				INFOPLIST_FILE = LGFDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.LGFDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos9.3;
+			};
+			name = Release;
+		};
+		BC643CBA1CF585C700960B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LGFDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.LGFDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGFDemo.app/LGFDemo";
+			};
+			name = Debug;
+		};
+		BC643CBB1CF585C700960B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LGFDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.LGFDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGFDemo.app/LGFDemo";
+			};
+			name = Release;
+		};
+		BC643CBD1CF585C700960B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LGFDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.LGFDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LGFDemo;
+			};
+			name = Debug;
+		};
+		BC643CBE1CF585C700960B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LGFDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.LGFDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LGFDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC643C841CF585C600960B47 /* Build configuration list for PBXProject "LGFDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC643CB41CF585C700960B47 /* Debug */,
+				BC643CB51CF585C700960B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC643CB61CF585C700960B47 /* Build configuration list for PBXNativeTarget "LGFDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC643CB71CF585C700960B47 /* Debug */,
+				BC643CB81CF585C700960B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC643CB91CF585C700960B47 /* Build configuration list for PBXNativeTarget "LGFDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC643CBA1CF585C700960B47 /* Debug */,
+				BC643CBB1CF585C700960B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC643CBC1CF585C700960B47 /* Build configuration list for PBXNativeTarget "LGFDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC643CBD1CF585C700960B47 /* Debug */,
+				BC643CBE1CF585C700960B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC643C811CF585C600960B47 /* Project object */;
+}

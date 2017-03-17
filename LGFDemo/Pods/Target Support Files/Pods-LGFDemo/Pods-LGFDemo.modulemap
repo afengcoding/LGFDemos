@@ -1,0 +1,6 @@
+framework module Pods_LGFDemo {
+  umbrella header "Pods-LGFDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
